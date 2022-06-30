@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/*---------------------
+    Header Part CSS
+----------------------*/
+
+header {
+    background-color: #2D25A0;
+    width: 100%;
+}
+.container {
+    width: 1440px;
+    height: 900px;
+    
+    margin: auto;
+    
+}
+
+.menu_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0 100px 0;
+    
+}
+
+
+.menu ul {
+    display: flex;
+    margin-left: -40px;
+}
+
+.menu ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    padding: 20px 20px 20px 0;
+    margin-right: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.login_button {
+    background-color: #db2c73;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.fa-right-to-bracket, .fas {
+    color: white;
+    font-size: 20px;
+}
+
+.login_button  a {
+    color: white;
+     text-decoration: none;
+     font-size: 20px;
+}
+
+
+.main_content {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.live_area {
+   
+    width: 50%;
+}
+
+.live_area h1 {
+    font-size: 80px;
+    line-height: 110px;
+    color: white;
+}
+
+
+.button_live {
+    background-color: #db2c73;
+    width: 130px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.live_area a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+   }
+.picture_area {
+    
+    width: 50%;
+}
+
+.picture_area img {
+    width: 100%;
+}
+
