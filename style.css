@@ -177,13 +177,14 @@ header {
 .logo {
     width: 500px;
     margin: auto;
+    padding-bottom: 20px;
 }
 .logo img {
     width: 100%;
 }
 
 .icons {
-    width: 200px;
+    width: 300px;
     margin: auto;
     display: flex;
     
@@ -201,4 +202,11 @@ header {
 
 footer p {
     text-align: center;
+}
+
+.icons img {
+    width: 100%;
+}
+.icons a span {
+    padding: 5px;
 }
