@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: aliceblue;
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif
 }
 
@@ -110,3 +110,95 @@ header {
     width: 100%;
 }
 
+
+
+
+
+.players {
+    width: 1240px;
+    padding-top: 65px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+
+.player {
+    padding: 15px;
+    padding-bottom: 25px;
+    box-shadow: 0 4px 180px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.player img {
+    width: 100%;
+}
+
+
+.highligts_area {
+    width: 1440px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.content_h h2 {
+    font-size: 65px;
+    
+    margin-bottom: 25px;
+}
+
+.content_h p {
+    text-align: justify;
+    line-height: 25px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+}
+
+.button_live {
+    background-color: #db2c73;
+    width: 130px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.button_live a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.pic_h img {
+    width: 100%;
+}
+
+.logo {
+    width: 500px;
+    margin: auto;
+}
+.logo img {
+    width: 100%;
+}
+
+.icons {
+    width: 200px;
+    margin: auto;
+    display: flex;
+    
+    justify-content: center;
+}
+.icons a {
+    padding: 10px;
+}
+
+.icons .fas {
+    color: red;
+    font-size: 20px;
+    
+}
+
+footer p {
+    text-align: center;
+}
