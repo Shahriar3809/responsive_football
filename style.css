@@ -12,18 +12,22 @@ body {
 header {
     background-color: #2D25A0;
     width: 100%;
+    height: auto;
 }
+
 .container {
     width: 1440px;
     height: 900px;
-    
     margin: auto;
+    display: flex;
+    
+    flex-direction: column;
     
 }
 
 .menu_bar {
     display: flex;
-    flex-direction: row;
+   
     justify-content: space-between;
     align-items: center;
     padding: 40px 0 100px 0;
@@ -210,3 +214,29 @@ footer p {
 .icons a span {
     padding: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
